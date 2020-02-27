@@ -1,6 +1,7 @@
 *XAMPP platform*
 
-1)Move php.ini to the xampp folder 'xampp/php'
+1)Move php.ini to the xampp folder 'xampp/php'.
+
 2)Move sendemail.ini to the xampp folder 'xampp/sendmail'
 note: In sendmail.ini override 'auth_username' with your email sender and 'auth_password' with its password.
 
