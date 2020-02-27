@@ -187,6 +187,6 @@ function rrmdir($dir) { 				//funzione che elimina cartelle contenenti file(rmdi
 function doLogout() {
 	  	  session_unset();
 	  	  session_destroy();
-	  	  header("location: /progetto/home.php");
+	  	  header("location: /ScriptGames/home.php");
 	  }
 ?>
