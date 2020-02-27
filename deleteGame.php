@@ -24,7 +24,7 @@
 			} 
 		 }
 	}
-	else header("location: /progetto/home.php");
+	else header("location: /ScriptGames/home.php");
 	
 					
 
