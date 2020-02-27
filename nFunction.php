@@ -12,12 +12,12 @@ function doAction($action) {
 		case 0: 								//Visualizza la home(Pagina di login o di profilo, a seconda della sessione o no)
 		 if (!isset($_SESSION['Username']))
 			doLoginPage();
-		else header("location: /progetto/home.php");
+		else header("location: /ScriptGames/home.php");
 			break;
 		case 1: 								//Visualizza la pagina di registrazione
 		 if (!isset($_SESSION['Username']))
 			doSignUpPage();
-		else header("location: /progetto/home.php");
+		else header("location: /ScriptGames/home.php");
 			break;
 		case 2: 								//Visualizza la pagina di profilo
 			doProfilePage();
