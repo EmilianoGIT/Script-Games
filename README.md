@@ -25,3 +25,6 @@ CREATE TABLE `giochi` (
 ALTER TABLE `giochi`
   ADD PRIMARY KEY (`NomeGioco`),
   ADD KEY `Uploader` (`Uploader`);
+  
+  
+4) When a user is signed, it can start uploading javascript game folders. You can find 2 examples on the archive 'JavaScriptGames.7z'
