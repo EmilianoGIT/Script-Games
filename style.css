@@ -1,0 +1,115 @@
+body{
+    background-color: #669900;
+}
+
+h1 {
+    color: #00001a;
+    text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+
+}
+
+p{
+	color: #00001a;
+    font-family: Verdana, Helvetica, sans-serif;
+    text-align: center;	
+    font-size: 16px;
+}
+
+p.error{
+	color: red;
+}
+
+
+form{
+
+	font-family: Verdana, Helvetica, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+ 
+}
+
+
+button{
+	font-family: Verdana, Helvetica, sans-serif;
+	margin-left: 45%;
+	
+}
+#div1{
+  position: absolute;
+  width: 400px;
+  background: #6666ff;
+  border: 2px solid black;
+   margin-left: auto;
+  margin-right: auto; 
+}
+#div2{
+  
+  width: 500px;
+  background: green;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto; 
+  top: 0;
+  left: 0px;
+}
+#div3{
+  
+  width: 500px;
+  background: green;
+  border: 2px solid black;
+  margin-left: auto;
+  margin-right: auto; 
+  top: 0;
+  left: 0px;
+}
+
+#div4{
+  position: static;
+  width: 700px;
+  height: auto;
+  background: #6666ff;
+  border: 2px solid black;
+   
+  margin-right: 60px; 
+}
+
+#div5{
+  margin-top: 20px;
+  margin-left: 20px;
+  position: relative;
+  width: 388px;
+  height: auto;
+  background: #6666ff;
+  border: 2px solid black;
+  
+}
+#plist{
+	color: #00001a;
+    font-family: Verdana, Helvetica, sans-serif;
+    text-align: left;	
+    font-size: 12px;
+}
+#ptlist{
+	color: #00001a;
+    font-family: Verdana, Helvetica, sans-serif;
+    text-align: center;	
+    font-size: 14px;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 388px;
+}
+
+td, th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+	
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
