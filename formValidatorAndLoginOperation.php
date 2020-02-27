@@ -44,7 +44,7 @@ $result = mysqli_query($conn, $checkIfExistingUser);
 if (mysqli_num_rows($result) > 0) 
 	{
 		$_SESSION['Username'] = $username;
-		header("location: /progetto/home.php");
+		header("location: /ScriptGames/home.php");
 	}
 	else 
 		$resMessage="Nome utente o Password errati";
