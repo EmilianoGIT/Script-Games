@@ -4,8 +4,9 @@
 2)Move sendemail.ini to the xampp folder 'xampp/sendmail'
 note: In sendmail.ini override 'auth_username' with your email sender and 'auth_password' with its password.
 
+3) From phpmyadmin create a database named 'progetto' and create a user with name 'utenteprogetto' and password 'password'
 
-3)SQL queries to define the users and games tables:
+4)Run these SQL queries from the db 'progetto' to define the users and games tables:
 
 
 CREATE TABLE `users` (
